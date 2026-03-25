@@ -16,21 +16,20 @@ It's an executive document summarizer that:
 **Installation**
 
 **Recommended (clone directly into Claude Code skills directory)**
-
+```
 mkdir -p ~/.claude/skills
 git clone https://github.com/gdiwanaipm-stack/exec-summarizer.git ~/.claude/skills/exec-summarizer
-
-
+```
 **Manual install/update (only the skill file)**
 If you already have this repo cloned (or you downloaded SKILL.md), copy the skill file into Claude Code’s skills directory:
 
+```
 mkdir -p ~/.claude/skills/exec-summarizer
 cp SKILL.md ~/.claude/skills/exec-summarizer/
-
+```
 -----------------
 **Usage**
 In Claude Code, invoke the skill:
-/exec-summarizer
+```/exec-summarizer [paste your text here]```
 
-Or ask Claude to exec-summarizer text directly [paste your text here]
-
+Or ask Claude to ```exec-summarizer this text [paste your text here]```
